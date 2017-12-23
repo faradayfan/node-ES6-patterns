@@ -1,0 +1,31 @@
+{
+  "name": "es6-patterns",
+  "version": "1.0.0",
+  "description": "A set a patterns I follow when devloping a node application.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "mocha --compilers js:babel-core/register test/**/*.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/faradayfan/node-ES6-patterns.git"
+  },
+  "author": "John Miller",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/faradayfan/node-ES6-patterns/issues"
+  },
+  "homepage": "https://github.com/faradayfan/node-ES6-patterns#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "chai": "^4.1.2",
+    "mocha": "^4.0.1"
+  },
+  "babel": {
+    "presets": [
+      "env"
+    ]
+  }
+}
