@@ -1,7 +1,6 @@
 
-
 export default class Service {
-    constructor() {
-
+    constructor(log) {
+        this.log = log;
     }
 }

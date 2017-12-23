@@ -28,7 +28,7 @@ Make sure you include this in your package.json.
 
 Finally, set up your `test` script.
 ```
-"test": "mocha --require babel-core/register test/**/*.test.js"
+"test": "mocha --require babel-core/register 'test/**/*.test.js'"
 ```
 
 This script assumes all your tests will be under your `/test` directory found in the root of your project, and that those tests files end with `*.test.js`. You can build whatever file structure under test you would like, but I like my structure to follow the same structure as my project. That way tests are easy to locate.
