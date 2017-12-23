@@ -1,4 +1,6 @@
 # Node ES6 Patterns
+*Disclaimer: This is a work in progress and a work of opinion. These are the patterns I have found to be most helpful for keeping my work organized and maintanable. If you feel anything I have written is wrong or could be done in a better way, feel free to recomend changes. Do not be offended if I choose not to implement suggestions.*
+
 This is a node project that has a few patterns I like to follow to keep my projects organized.
 
 ## Setup
