@@ -42,7 +42,7 @@ There should be an attempt to avoid state variables (other than dependencies) to
 ### Service Modules
 Service modules are modules that interact with some external resource.
 
-/services/userDatabase/index.js
+/src/services/userDatabase/index.js
 
 ```
 
@@ -63,7 +63,7 @@ This pattern allows for the quick changing of store objects, along with easily m
 ### Route Modules
 Route modules are modules that represent a set of APIs at the end of a path. For example, you might create a API for User CRUD operations. This module might look like this.
 
-/routes/user/index.js
+/src/routes/user/index.js
 ```
 export default class UserRoute extends Route{
     constructor(userDB){
