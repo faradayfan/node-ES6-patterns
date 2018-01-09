@@ -1,5 +1,5 @@
 import { expect } from 'chai'
-import Service from '../../services/';
+import Service from '../../src/services/';
 describe('Service', () => {
     describe('constructor', () => {
         it('should construct', () => {

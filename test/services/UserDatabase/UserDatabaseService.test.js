@@ -1,6 +1,6 @@
 import { expect } from 'chai';
-import UserDatabaseService from '../../../services/UserDatabase/';
-import Service from '../../../services/'
+import UserDatabaseService from '../../../src/services/UserDatabase/';
+import Service from '../../../src/services/'
 
 
 describe('MyService', () => {
